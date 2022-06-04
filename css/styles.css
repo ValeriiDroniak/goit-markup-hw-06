@@ -411,7 +411,10 @@ footer {
 .primari-footer {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+}
+
+.container-address {
+  margin-right: 70px;
 }
 
 .logo.white {
@@ -443,10 +446,6 @@ footer {
 .address-items .link:hover,
 .address-items .link:focus {
   color: var(--accent-color);
-}
-
-.footer-wrapper {
-  display: flex;
 }
 
 /* Приєднайтесь */
@@ -482,8 +481,7 @@ footer {
 }
 
 .subscription {
-  margin-left: 93px;
-  margin-right: 0px;
+  margin-left: auto;
 }
 
 .subscription-input {
@@ -505,6 +503,7 @@ footer {
 
 .subscription-form > .form-btn {
   display: flex;
+  margin: 0;
   justify-content: center;
   align-items: center;
 }
@@ -694,7 +693,7 @@ footer {
   top: 50%;
   left: 50%;
   width: 528px;
-  min-height: 581px;
+  height: 581px;
 
   padding: 40px;
 
@@ -765,7 +764,7 @@ footer {
 }
 
 .form-text {
-  display: inline-block;
+  display: block;
   margin-top: 0;
   margin-bottom: 4px;
 
@@ -806,6 +805,7 @@ footer {
 }
 
 .form-comment {
+  display: block;
   resize: none;
   width: 100%;
 
@@ -866,11 +866,9 @@ footer {
   color: var(--accent-color);
 }
 
-.wrapper-btn {
-  text-align: center;
-}
-
 .form-btn {
+  display: block;
+  margin: 0 auto;
   width: 200px;
   height: 50px;
 
